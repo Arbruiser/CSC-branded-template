@@ -1,8 +1,20 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: CSC Learning Materials
+description: Official training documentation for CSC staff and partners.
 theme: just-the-docs
+
+logo: "/assets/images/csc-logo.png"
+logo_link: "https://csc.fi/en/"
 
 url: https://just-the-docs.github.io
 
+# Navigation & Search
+search_enabled: true
+heading_anchors: true      # Makes it easy for people to link to specific sections
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Main Company Site": "https://csc.fi"
+  "GitHub Repo": "https://github.com/Arbruiser/CSC-branded-template"
+
+# This helps experts! It adds an "Edit this page on GitHub" link to every lesson
+gh_edit_repository: "https://github.com/Arbruiser/CSC-branded-template"
+gh_edit_view_mode: "tree"
+gh_edit_branch: "main"

@@ -5,7 +5,7 @@ theme: just-the-docs
 logo: "CSC_logo.svg"
 logo_link: "https://csc.fi/en/"
 color_scheme: CSC-colours
-url: https://just-the-docs.github.io
+url: "https://arbruiser.github.io/CSC-branded-template"
 
 # Navigation & Search
 search_enabled: true

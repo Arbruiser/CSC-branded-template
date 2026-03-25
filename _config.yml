@@ -9,8 +9,7 @@ color_scheme: CSC-colours
 # Navigation & Search
 heading_anchors: true      # Makes it easy for people to link to specific sections
 aux_links:
-  "Main Company Site": "https://csc.fi"
-  "GitHub Repo": "https://github.com/Arbruiser/CSC-branded-template"
+  "CSC Website": "https://csc.fi"
 
 # This helps experts! It adds an "Edit this page on GitHub" link to every lesson
 gh_edit_repository: "https://github.com/Arbruiser/CSC-branded-template"

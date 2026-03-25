@@ -1,5 +1,9 @@
 <footer class="site-footer">
-  <hr>
   <p>&copy; 2026 <strong>CSC – IT Center for Science</strong></p>
   <p>For support, contact the <a href="https://docs.csc.fi/support/contact/">CSC Service Desk</a>.</p>
+  <style>
+    /* This tiny bit of CSS hides the original theme credit if it tries to sneak back in */
+    .site-footer > p:last-child { display: none !important; }
+    .site-footer > p:first-child, .site-footer > p:nth-child(2) { display: block !important; }
+  </style>
 </footer>

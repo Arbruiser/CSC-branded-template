@@ -1,19 +1,28 @@
-// 1. Core Brand Colors (LUMI AI Factory)
-$brand-color: #2c6789;       // LUMI Blue (Primary)
-$link-color: #2c6789;        // LUMI Blue
+// Main colours
 $body-background-color: #ffffff;
-$sidebar-color: #ffffff;     // Clean White sidebar
-$sidebar-color-dark: #000000; // Black for dark mode support
+$sidebar-color: #ffffff;
+$body-text-color: #231f20;
+$sidebar-text-color: #231f20;
 
-// 2. Navigation & UI
-$nav-child-link-color: #7477b8; // LUMI Purple (Secondary)
-$btn-primary-color: #2c6789;    // LUMI Blue
+// Additional colours & Effect
+$brand-color: #2c6789;       // Blue
+$link-color: #2c6789;        // Blue
+$nav-child-link-color: #7477b8; // Purple
 
-// 3. Feedback & Effect Colors
-$feedback-info-color: #2c6789;    // Blue for "Note" boxes
-$feedback-warning-color: #7477b8; // Purple for "Tip" boxes
-$feedback-error-color: #ec008c;   // Magenta for "Warning/Alert" (Effect Color)
-$feedback-success-color: #2c6789; // Keeping it Blue for consistency
+// Callout Boxes (Note, Tip, Warning)
+// Using white backgrounds to keep it strictly within the palette
+$feedback-info-color: #2c6789;    // Blue (Note)
+$feedback-info-color-light: #ffffff; 
 
-// 4. Borders & Lines
-$border-color: #eeeeee;
+$feedback-warning-color: #7477b8; // Purple (Tip)
+$feedback-warning-color-light: #ffffff;
+
+$feedback-error-color: #ec008c;   // Magenta (Warning)
+$feedback-error-color-light: #ffffff;
+
+$feedback-success-color: #2c6789;
+$feedback-success-color-light: #ffffff;
+
+// UI Elements
+$border-color: #231f20; // Using the Black for lines
+$btn-primary-color: #2c6789;

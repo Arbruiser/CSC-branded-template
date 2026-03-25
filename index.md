@@ -13,7 +13,7 @@ This is the official template for creating clean, branded self-learning course s
 This site is pre-configured with the LUMI AI Factory palette. You can use special "Callout Boxes" to highlight information for your students:
 
 {: .note }
-> **LUMI Blue (Note)**
+> **LUMI Purple (Note)**
 >
 > Use this for additional context, "Deep Dives," or general helpful information.
 
@@ -25,7 +25,7 @@ This site is pre-configured with the LUMI AI Factory palette. You can use specia
 ---
 
 ## 💻 Technical Content
-When writing technical details or commands, use the **LUMI Purple** accent:
+When writing technical details or commands, use the **LUMI Blue** accent:
 
 * **Inline Commands:** Use backticks to show code like `srun --pty bash`.
 * **Sidebar Links:** Navigation links will turn Purple when you hover over them.

@@ -15,7 +15,7 @@ This site is pre-configured with the LUMI AI Factory palette. You can use specia
 {: .note }
 > **LUMI Purple (Note)**
 >
-> Use this for additional context, "Deep Dives," or general helpful information.
+> Use this for additional context or general helpful information.
 
 {: .warning }
 > **LUMI Magenta (Warning)**

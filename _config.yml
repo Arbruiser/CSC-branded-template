@@ -11,11 +11,6 @@ heading_anchors: true      # Makes it easy for people to link to specific sectio
 aux_links:
   "CSC Website": "https://csc.fi"
 
-# This helps experts! It adds an "Edit this page on GitHub" link to every lesson
-gh_edit_repository: "https://github.com/Arbruiser/CSC-branded-template"
-gh_edit_view_mode: "tree"
-gh_edit_branch: "main"
-
 # Points to the correct fork automatically!
 gh_edit_repository: "https://github.com/{{ site.github.repository_nwo }}"
 gh_edit_view_mode: "tree"

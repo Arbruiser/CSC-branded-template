@@ -23,10 +23,10 @@ footer_content: "© 2026 CSC – IT Center for Science"
 callouts:
   note:
     title: "LUMI Blue (Note)"
-    color: lumi-blue
+    color: blue
   tip:
     title: "LUMI Purple (Tip)"
-    color: lumi-purple
+    color: purple
   warning:
     title: "LUMI Magenta (Important)"
-    color: lumi-magenta
+    color: pink

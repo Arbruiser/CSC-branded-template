@@ -18,3 +18,15 @@ gh_edit_branch: "main"
 
 search_enabled: false
 footer_content: "© 2026 CSC – IT Center for Science"
+
+
+callouts:
+  note:
+    title: "LUMI Blue (Note)"
+    color: lumi-blue
+  tip:
+    title: "LUMI Purple (Tip)"
+    color: lumi-purple
+  warning:
+    title: "LUMI Magenta (Important)"
+    color: lumi-magenta

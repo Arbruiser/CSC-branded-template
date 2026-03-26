@@ -57,3 +57,35 @@ div.highlighter-rouge {
     margin: 0 !important;
   }
 }
+
+// 7. Visual Structure (The "Dashboard" Look)
+
+// Tint the sidebar to create separation from the content
+.side-bar {
+  background-color: #f8f9fa !important; // A very faint cool-grey
+  border-right: 1px solid #e9ecef;     // A thin, subtle divider line
+}
+
+// Match the logo area to the sidebar color
+.site-header {
+  background-color: #f8f9fa !important;
+}
+
+// Turn the "CSC Website" link into a subtle "Pill" button
+.aux-nav-list {
+  .aux-nav-list-item a {
+    background-color: #f0f3f5;
+    padding: 6px 14px !important;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: $csc-blue !important;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: $csc-blue;
+      color: $white !important;
+      text-decoration: none !important;
+    }
+  }
+}

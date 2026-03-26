@@ -57,6 +57,13 @@ print(f"The calculation result is: {result}")
 
 ---
 
+## Embedding a picture
+To add an image, place it in `assets/images/` and use this syntax:
+
+![Description of the image](assets/images/spring-school.png)
+
+---
+
 ## Embedding a YouTube video
 The video can be listed or unlisted (available through link only). To add a video, simply copy the **Embed code** from YouTube (Share > Embed) and paste it directly into the `.md` file.
 
@@ -78,5 +85,3 @@ $$
 
 ## 🛠️ Need Help?
 If you have questions or suggestions on how to improve the template or instructions, please reach out to me on RocketChat: Artúr Vojt-Antal
-
-Instructions on how to structure your lessons, add images, and manage navigation can be found in our **[README](https://github.com/Arbruiser/CSC-branded-template/blob/main/README.md)**.

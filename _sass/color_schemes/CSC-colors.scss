@@ -60,7 +60,7 @@ div.highlighter-rouge {
 
 
 
-// 7. Visual Structure (The "CSC Asymptote" Corners)
+// 6. The "CSC Asymptote" Corners
 
 html::before {
   content: "";
@@ -93,7 +93,7 @@ html, body, .main, .main-content, .main-content-wrap, .main-header {
 // The Sidebar (Crystal clear background)
 .side-bar {
   background: transparent !important; 
-  background-color: rgba(255, 255, 255, 0.6) !important; 
+  background-color: transparent !important; // <-- Removed the 0.6 white veil!
   border-right: 1px solid rgba(0, 0, 0, 0.05) !important;
 }
 

@@ -58,43 +58,35 @@ div.highlighter-rouge {
   }
 }
 
-// 7. Visual Structure (The "CSC Ambient Glow")
+// 7. Visual Structure (The "CSC Ambient Glow" v2)
+
+html {
+  // We put the background on the 'html' tag so it spans the entire browser window
+  // Radial gradients at the specific corners match the logo's logic perfectly.
+  background: 
+    radial-gradient(circle at 0% 100%, rgba($csc-blue, 0.08), transparent 40%),    // Blue: Bottom-Left
+    radial-gradient(circle at 100% 0%, rgba($csc-magenta, 0.06), transparent 40%), // Magenta: Top-Right
+    #ffffff !important;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
 
 body {
-  // Mirroring the logo: Blue (bottom-left) to Magenta (top-right)
-  // We use 0.04 (4% opacity) so it's a "whisper" of color, not a distraction.
-  background: linear-gradient(
-    45deg, 
-    rgba($csc-blue, 0.04) 0%, 
-    rgba(255, 255, 255, 1) 50%, 
-    rgba($csc-magenta, 0.04) 100%
-  ) !important;
-  background-attachment: fixed; // Keeps the gradient still while you scroll
+  background: transparent !important; // Let the HTML background shine through
 }
 
 .side-bar {
-  // Using a slightly transparent white lets the background glow peak through
-  background-color: rgba(255, 255, 255, 0.8) !important;
-  backdrop-filter: blur(8px); // Modern "frosted glass" effect
+  // Making the sidebar transparent allows the blue glow from the bottom-left to be visible
+  background-color: transparent !important; 
   border-right: 1px solid rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px); // Adds a high-end "frosted glass" look to the sidebar
 }
 
 .site-header {
   background-color: transparent !important;
 }
 
-// Top-right "Pill" Button for the CSC Website link
-.aux-nav-list-item a {
-  background-color: rgba($csc-blue, 0.08) !important;
-  padding: 6px 15px !important;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: 500;
-  transition: all 0.2s ease;
-
-  &:hover {
-    background-color: $csc-blue !important;
-    color: $white !important;
-    text-decoration: none !important;
-  }
+// Ensure the main content area doesn't have a solid white background blocking the glow
+.main-content-wrap, .main-content {
+  background-color: transparent !important;
 }

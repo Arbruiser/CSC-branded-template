@@ -43,6 +43,7 @@ This site is pre-configured with the LUMI AI Factory palette. You can use specia
 
 ## 💻 Technical Content
 * **Inline Commands:** Use backticks to show code like `srun --pty bash`.
+* **Code blocks** Use triple backticks to show multiline blocks of code. You must have an empty line before and after the block.
 * **Sidebar Links:** Navigation links will turn Purple when you hover over them.
 
 ---

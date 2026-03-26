@@ -107,3 +107,18 @@ a:hover {
     border: 0;
   }
 }
+
+
+// 6. Copy Button Styling
+.btn-copy {
+  background-color: $white !important;
+  color: $csc-blue !important;
+  border: 1px solid $csc-blue !important;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: $csc-blue !important;
+    color: $white !important;
+    text-decoration: none !important; // Keeps it clean on hover
+  }
+}

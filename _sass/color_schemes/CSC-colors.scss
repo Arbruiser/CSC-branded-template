@@ -71,6 +71,9 @@ html::before {
   height: 100vh;
   z-index: -999;
   background-color: #ffffff;
+  background-size: 
+    clamp(120px, 15vw, 350px) clamp(120px, 15vw, 350px), /* Top Right Shape */
+    clamp(120px, 15vw, 350px) clamp(120px, 15vw, 350px); /* Bottom Left Shape */
   
   // Scaled down to 350px and set to 100% opacity (solid)
   background-image: 

@@ -58,7 +58,7 @@ div.highlighter-rouge {
   }
 }
 
-// 7. Visual Structure (The "Static CSC Glow")
+// 7. Style with light magenta in top right fading into blue in bottom left 
 
 // 1. Clear default backgrounds
 html, body {
@@ -76,8 +76,8 @@ body::before {
   height: 100vh;
   z-index: -1; 
   background: 
-    // BOOSTED BLUE: Increased opacity (0.15) and spread (60%)
-    radial-gradient(circle at 0% 100%, rgba($csc-blue, 0.15), transparent 60%),    
+    // INCREASED BLUE: Opacity bumped to 0.25 (25%), spread pushed to 75%
+    radial-gradient(circle at 0% 100%, rgba($csc-blue, 0.25), transparent 75%),    
     radial-gradient(circle at 100% 0%, rgba($csc-magenta, 0.06), transparent 50%), 
     #ffffff; 
 }

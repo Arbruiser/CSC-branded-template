@@ -10,8 +10,9 @@ This is the official template for creating clean, branded self-learning course s
 ---
 
 ## 📄 Add more pages
-1. `index.md` is the 'landing page' of the website, please do not rename it. You can easily add more pages by making new `.md` files in the root or in a subfolder. You can use this to add structure and introduce chapters/lessons and not have everything on one page. 
+1. `index.md` is the 'landing page' of the website, do not rename it. You can easily add more pages by making new `.md` files in the root or in a subfolder.
 2. **Add Front Matter:** Every page needs this at the top:
+
    ```yaml
    ---
    layout: default
@@ -19,7 +20,8 @@ This is the official template for creating clean, branded self-learning course s
    nav_order: 1
    ---
 Where: 
-- `layout` should be 'home' for `index.md` and 'default' for extra pages;
+- `layout` should be 'home' for `index.md` and 'default' for other pages;
+- `title` is the name of the page;
 - `nav_order` defines the order in which the extra pages are listed on the left side.
 
 ## 🎨 Branded Learning Elements

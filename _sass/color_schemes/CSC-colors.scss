@@ -74,27 +74,3 @@ div.highlighter-rouge {
   }
 }
 
-
-// 6. Video Styling 
-iframe {
-  width: 100% !important;
-  aspect-ratio: 16 / 9;
-  border: 1px solid $csc-black;
-  border-radius: 6px;
-  margin: 1.5rem 0;
-}
-
-// 7. Logo Customization (The "Safe" Version)
-// We target the image directly inside the sidebar header
-.site-header .site-button img {
-  height: 50px !important;      // Forces the height to be 50px (taller than default)
-  width: auto !important;       // Keeps the aspect ratio perfect
-  max-height: 80px !important;  // Safety cap
-  display: block !important;    // Ensures it doesn't collapse
-}
-
-// Adjust the container to make room for the taller logo
-.site-header {
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
-}

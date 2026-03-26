@@ -19,6 +19,7 @@ This is the official template for creating clean, branded self-learning course s
    title: Lesson 1 - Intro
    nav_order: 1
    ---
+   
 Where: 
 - `layout` should be 'home' for `index.md` and 'default' for other pages;
 - `title` is the name of the page;

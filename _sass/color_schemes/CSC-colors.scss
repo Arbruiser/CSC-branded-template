@@ -1,25 +1,61 @@
-// CSC & LUMI AI Factory Color Palette
+// 1. Define CSC & LUMI Brand Palette
 $csc-blue:    #2c6789;
 $csc-purple:  #7477b8;
 $csc-magenta: #ec008c;
 $csc-dark:    #231f20;
+$white:       #ffffff;
 
-// Just the Docs Variable Overrides
+// 2. Just the Docs UI Variables (Overrides)
+// These change the search bar, sidebar links, and buttons
 $brand-color:         $csc-blue;
 $link-color:          $csc-blue;
 $body-text-color:     $csc-dark;
-$sidebar-color:       #f9f9f9; // Light grey sidebar for contrast
+$sidebar-color:       $white;
 $nav-child-link-color: $csc-purple;
 
-// Customize Callouts (The "Two-Box" System)
-$callout-note-color:    $csc-purple;
-$callout-warning-color: $csc-magenta;
+// 3. Custom Callout Boxes (The "Two-Box" System)
+// This ensures {: .note } and {: .warning } work in index.md
+.note {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border: 1px solid $csc-dark;
+  border-left: 6px solid $csc-purple; // LUMI Purple
+  background-color: $white;
+  
+  // This styles the blockquote inside the note
+  blockquote {
+    margin: 0;
+    border-left: none;
+    padding: 0;
+    color: inherit;
+  }
+}
 
-// Professional Code Styling
-$code-background-color: #f5f5f5;
-$highlight-color:       $csc-purple;
+.warning {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border: 1px solid $csc-dark;
+  border-left: 6px solid $csc-magenta; // LUMI Magenta
+  background-color: $white;
 
-// Ensure Hover states use the Interactive Purple
+  blockquote {
+    margin: 0;
+    border-left: none;
+    padding: 0;
+    color: inherit;
+  }
+}
+
+// 4. Code & Technical Elements
+code {
+  color: $csc-blue !important;
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+// Hover state for interactive feel
 a:hover {
   color: $csc-purple !important;
+  text-decoration: underline;
 }

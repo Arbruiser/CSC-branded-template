@@ -62,9 +62,9 @@ To add an image, place it in `assets/images/` and use this syntax:
 
 ![Description of the image](assets/images/spring-school.jpg)
 
-To add an image with a caption under the image use this simple HTML:
+To add an image with a caption under the image and resize the image use this simple HTML:
 <figure style="text-align: center;">
-  <img src="assets/images/summer-school.jpg">
+  <img src="assets/images/summer-school.jpg" style="width: 50%;">
   <figcaption><i>Figure 1: Spring School on Computational Chemistry 2024.</i></figcaption>
 </figure>
 

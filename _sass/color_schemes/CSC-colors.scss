@@ -61,11 +61,29 @@ div.highlighter-rouge {
   }
 }
 
-// 7. Reposition Aux Links to the Left
+// 6. Reposition Aux Links to the Left
+.main-header {
+  display: flex !important;
+  align-items: center !important;
+}
+
 .aux-nav {
-  float: left !important;      // Forces the container to the left
-  margin-left: 0 !important;   // Removes any default left margin
-  margin-right: 2rem;          // Adds a little breathing room from the edge
+  order: -1;                     // Moves it to the very beginning (left)
+  margin-left: 0 !important;
+  margin-right: auto !important; // Pushes search/other elements to the right
+  display: flex !important;
+}
+
+.aux-nav-list {
+  padding-left: 0 !important;    // Removes default indentation
+  margin-bottom: 0 !important;
+  list-style: none;
+}
+
+.aux-nav-list-item {
+  display: inline-block;
+  margin-left: 0 !important;     // Reset
+  margin-right: 1rem;            // Add space to the right of the button
 }
 
 // 7. The "CSC Asymptote" Corners

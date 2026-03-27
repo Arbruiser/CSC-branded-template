@@ -8,7 +8,7 @@ $very-light-green: #f5fff8;
 $csc-red: #830051;
 $very-light-red: #fdf6f6;
 $csc-black:    #002930;
-$csc-slightly-grey: #DFE1E3;
+$csc-light-grey: #EFF0F1;
 $white:       #ffffff;
 
 
@@ -32,7 +32,7 @@ $nav-child-link-color: $csc-red;
 // 4. Interactive Elements
 :not(pre) > code {
   color: $csc-green !important;
-  background-color: $csc-slightly-grey !important;
+  background-color: $csc-light-grey !important;
   padding: 2px 4px;
   border-radius: 3px;
 }

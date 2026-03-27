@@ -1,10 +1,10 @@
 // 1. CSC & LUMI Brand Palette
 $csc-blue:    #02284F;
 $csc-light-blue: #ABCFEF; 
-$very-light-blue: #eef7ff;
+$very-light-blue: #f1f8fd;
 $csc-green: #005260;
 $csc-light-green:  #B0DCBA;
-$very-light-green: #f3fff6;
+$very-light-green: #f5fff8;
 $csc-red: #830051;
 $very-light-red: #fdf6f6;
 $csc-black:    #002930;
@@ -25,7 +25,7 @@ $nav-child-link-color: $csc-red;
   padding: 1rem 1.5rem;
   blockquote { margin: 0; border-left: none; padding: 0; color: inherit; }
 }
-.note { border: 1px solid $csc-green; border-left: 6px solid $csc-light-green; background-color: $very-light-green;}
+.note { border: 1px solid $csc-green; border-left: 6px solid $csc-green; background-color: $very-light-green;}
 .warning { border: 1px solid $csc-red; border-left: 6px solid $csc-red; background-color: $very-light-red;}
 
 

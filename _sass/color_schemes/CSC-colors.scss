@@ -25,7 +25,7 @@ $nav-child-link-color: $csc-red;
   blockquote { margin: 0; border-left: none; padding: 0; color: inherit; }
 }
 .note { border: 1px solid $csc-green; border-left: 6px solid $csc-light-green; background-color: #eeeff8;}
-.warning { border-left: 6px solid $csc-red; background-color: #fdf2f7; border: 1px solid $csc-red;}
+.warning { border: 1px solid $csc-red; border-left: 6px solid $csc-red; background-color: #fdf2f7;}
 
 
 // 4. Interactive Elements
@@ -93,9 +93,9 @@ html, body, .main, .main-content, .main-content-wrap, .main-header {
   border-bottom: none !important;
 }
 
-// The Sidebar (Crystal clear background)
+// The Sidebar
 .side-bar {
-  background-color: transparent !important; // <-- Removed the 0.6 white veil!
+  background-color: $sidebar-color !important; // <-- Removed the 0.6 white veil!
   border-right: 1px solid rgba(0, 0, 0, 0.05) !important;
 }
 

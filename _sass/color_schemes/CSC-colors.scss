@@ -17,7 +17,8 @@ $brand-color:         $csc-blue;
 $link-color:          $csc-blue;
 $body-text-color:     $csc-black;
 $nav-child-link-color: $csc-red;
-$sidebar-color: $csc-light-blue;
+$sidebar-color: $very-light-blue;
+
 
 // 3. Branded Callouts (Notes & Warnings)
 .note, .warning {
@@ -61,6 +62,7 @@ div.highlighter-rouge {
   }
 }
 
+
 // 6. Top buttons
 .aux-nav {
   order: -1;// Moves it to the left
@@ -78,6 +80,7 @@ div.highlighter-rouge {
     background-color: $csc-green !important;
   }
 }
+
 
 // 7. The "CSC Asymptote"
 html::before {

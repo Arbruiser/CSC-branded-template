@@ -91,21 +91,10 @@ html::before {
   background-repeat: no-repeat, no-repeat;
 }
 
-// Strip ALL theme backgrounds completely 
-html, body, .main, .main-content, .main-content-wrap, .main-header {
-  background-color: transparent !important;
-  border-bottom: none !important;
-}
-
 // The Sidebar (Crystal clear background)
 .side-bar {
   background-color: transparent !important;
   border-right: 1px solid rgba(0, 0, 0, 0.05) !important;
-}
-
-// Inner Sidebar Elements 
-.site-header, .site-title, .site-nav, .site-footer, .search {
-  background-color: transparent !important;
 }
 
 // Top-right "Pill" Button

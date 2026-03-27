@@ -93,9 +93,9 @@ html, body, .main, .main-content, .main-content-wrap, .main-header {
   border-bottom: none !important;
 }
 
-// The Sidebar
+// The Sidebar (Crystal clear background)
 .side-bar {
-  background-color: $sidebar-color !important; // <-- Removed the 0.6 white veil!
+  background-color: transparent !important;
   border-right: 1px solid rgba(0, 0, 0, 0.05) !important;
 }
 

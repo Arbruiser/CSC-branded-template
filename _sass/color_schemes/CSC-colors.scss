@@ -107,19 +107,3 @@ html::before {
   background-color: transparent !important;
   border-right: 1px solid rgba(0, 0, 0, 0.05) !important;
 }
-
-// Top buttons
-.aux-nav-list-item a {
-  background-color: rgba($csc-blue, 0.05) !important;
-  padding: 6px 15px !important;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: 500;
-  border: 1px solid rgba($csc-blue, 0.1);
-
-  &:hover {
-    background-color: $csc-red !important;
-    color: $white !important;
-    text-decoration: none !important;
-  }
-}

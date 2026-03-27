@@ -44,7 +44,7 @@ You can use special "Callout Boxes" to highlight information for your students a
 ---
 
 ## 💻 Technical Content
-* **Sidebar Links:** Navigation links will turn CSC-Red when you hover over them.
+* **Links:** Links will turn teal when you hover over them.
 * **Inline Commands:** Use backticks to show code like `srun --pty bash`.
 * **Code blocks** Use triple backticks to show multiline blocks of code. When user hovers over it, the copy button appears. You must have an empty line before and after the block as such: 
 

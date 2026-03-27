@@ -62,16 +62,9 @@ div.highlighter-rouge {
 }
 
 // 6. Reposition Aux Links to the Left
-.main-header {
-  display: flex !important;
-  align-items: center !important;
-}
-
 .aux-nav {
-  order: -1;                     // Moves it to the very beginning (left)
-  display: flex !important;
+  order: -1;                     // Moves it to the left
 }
-
 
 
 // 7. The "CSC Asymptote" Corners

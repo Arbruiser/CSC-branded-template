@@ -89,6 +89,8 @@ html::before {
   right: 0;
   z-index: 9999;
   background-size: min(10vw, 150px), min(10vw, 150px);
+  pointer-events: none; // allows clicks to come through
+  background-color: transparent;
   
   // Scaled down to 350px and set to 100% opacity (solid)
   background-image: 

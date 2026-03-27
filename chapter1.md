@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Chapter 1 - Getting Started with LUMI
+title: Chapter 1 - Getting Started with Roihu
 nav_order: 2
 ---
 
@@ -12,7 +12,7 @@ You can even **add subchapters** to this chapter by creating another `.md` file 
 ```yaml
 ---
 layout: default
-title: Chapter 1 - Getting Started with LUMI
+title: Chapter 1 - Getting Started with Roihu
 nav_order: 2
 has_children: true
 ---
@@ -24,7 +24,7 @@ has_children: true
 ---
 layout: default
 title: Authentication & Environment
-parent: Chapter 1 - Getting Started with LUMI  # Matches the title of the parent page
+parent: Chapter 1 - Getting Started with Roihu  # Matches the title of the parent page
 nav_order: 1               # Order within the chapter
 ---
 ```

@@ -61,9 +61,14 @@ div.highlighter-rouge {
   }
 }
 
+// 7. Reposition Aux Links to the Left
+.aux-nav {
+  float: left !important;      // Forces the container to the left
+  margin-left: 0 !important;   // Removes any default left margin
+  margin-right: 2rem;          // Adds a little breathing room from the edge
+}
 
-
-// 6. The "CSC Asymptote" Corners
+// 7. The "CSC Asymptote" Corners
 
 html::before {
   content: "";
